@@ -1,0 +1,13 @@
+{
+  "name": "@peter554/quote-widget",
+  "version": "1.0.0",
+  "description": "A simple quote widget",
+  "module": "./src/widget.js",
+  "scripts": {
+    "start": "parcel serve ./demo/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
