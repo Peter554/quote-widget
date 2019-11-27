@@ -7,7 +7,12 @@
     "start": "parcel serve ./demo/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "haunted": "^4.6.3"
+  },
   "devDependencies": {
+    "@pika/web": "^0.6.1",
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "browserslist": ">1%"
 }

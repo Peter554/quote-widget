@@ -1,3 +1,9 @@
-const p = document.createElement('p')
-p.innerHTML = 'Hello world'
-document.body.appendChild(p)
+import { component, html } from 'haunted'
+
+const Widget = () => {
+  return html`
+    <p>I'm the quote widget!</p>
+  `
+}
+
+customElements.define('quote-widget', component(Widget))
