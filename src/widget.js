@@ -2,7 +2,7 @@ import { html, component, useState, useEffect } from 'haunted'
 
 const quoteURL = 'http://quotes.rest/qod.json?category=inspire'
 
-export const Widget = () => {
+const Widget = () => {
   const [quote, setQuote] = useState('')
   const [author, setAuthor] = useState('')
 
