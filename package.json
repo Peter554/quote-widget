@@ -2,6 +2,7 @@
   "name": "@peter554/quote-widget",
   "version": "1.0.6",
   "description": "A simple quote widget",
+  "type": "module",
   "module": "src/widget.js",
   "scripts": {
     "start": "parcel serve ./demo/dev.html",
