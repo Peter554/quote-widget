@@ -2,8 +2,10 @@
   "name": "@peter554/quote-widget",
   "version": "1.0.7",
   "description": "A simple quote widget",
-  "type": "module",
   "module": "src/widget.js",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "start": "parcel serve ./demo/dev.html",
     "deploy:demo": "surge ./demo peter554--quote-widget.surge.sh",
