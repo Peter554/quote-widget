@@ -2,15 +2,14 @@
   "name": "@peter554/quote-widget",
   "version": "1.0.1",
   "description": "A simple quote widget",
-  "module": "./src/widget.js",
+  "module": "src/widget.js",
   "scripts": {
-    "start": "parcel serve ./demo/index.html",
+    "start": "parcel serve ./demo/dev.html",
     "deploy:demo": "surge ./demo peter554--quote-widget.surge.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "haunted": "^4.6.3",
-    "lit-html": "^1.1.2"
+    "haunted": "^4.6.3"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
