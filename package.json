@@ -1,6 +1,6 @@
 {
   "name": "@peter554/quote-widget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple quote widget",
   "module": "src/widget.js",
   "scripts": {
