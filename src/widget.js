@@ -36,6 +36,10 @@ customElements.define('quote-widget', component(Widget))
 
 const widgetStyles = html`
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     :host {
       font-family: var(
         --quote-widget-font-family,
